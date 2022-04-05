@@ -1,0 +1,61 @@
+
+
+.main-heading{
+    color: red;
+    
+}
+#nav-item{
+    color:red;
+
+}
+
+nav {
+    text-align: right;
+    
+}
+
+nav a {    display: inline;
+}
+div {
+     display:block; 
+    text-align: center;
+    
+}
+#cohort {
+    text-align: center;
+    margin: 5px;}
+
+
+img {
+    width: 340px;
+    height: 210px;
+}
+.grey {
+    background-color: rgb(224, 223, 221);
+    padding: 10px 50px;
+}
+
+.pet {
+    background-color: white;
+    padding: 10px;
+    /* justify-self: center; */
+}
+.pet-blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer {
+    text-align: center;
+}
+#pet-name{
+    
+    font-weight: bold;
+}
+#gender{
+    color: rgb(220, 220, 220);
+
+}
+#dog-location{
+    color: red;
+    font-size: 20px;
+}
