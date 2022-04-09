@@ -13,6 +13,17 @@ body {
     font-size: 1rem;
     font-weight: bold;
     height: calc(100% - 14px);
+    display:flex;
+    /* horizontal alignment */
+    /* justify-content:flex-start; */
+    justify-content:center;
+    flex-wrap: wrap;
+    /* justify-content:space-between; */
+    /* align-content: center; */
+    /* align-content: stretch; */
+    /* vertical alignment */
+    /* align-content: flex-end; */
+    align-content: center;
 }
 
 div {
@@ -21,3 +32,31 @@ div {
 }
 
 /*** Your code here ***/
+/* .demo-div{
+flex-grow: 1;
+ fill the space of parents 
+
+} */
+/* Remeber order doesnt change out html structure */
+/* order is superhelful at scale for retreiving data from database and display */
+#div-5{
+    flex-grow: 2;
+    order: -1;
+    background-color: greenyellow;
+}
+#div-6{
+    flex-grow: 2;
+    order: 1;
+}
+
+#div-1{
+    flex-basis: 20%;
+     /*(will use 20% of space of the screen)*/
+     order: 2;
+     
+} 
+#div-2{
+    flex-basis: 100px; 
+    order: 3;
+    /*(will use 20% of space of the screen) */
+}

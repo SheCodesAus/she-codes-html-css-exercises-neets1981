@@ -28,5 +28,32 @@ div {
 #div-4 {
     background-color: #f5deb3;
 }
+/* Tablet */
+ @media (min-width: 500px) and (max-width:900px) {
+    div {
+    display: inline-block;
+    width: 44%;
+    font-size: 30px;
+    }
+    #div-1,
+    #div-2
+    {background-color: blue;}
+    #div-3,
+    #div-4
+    {background-color: rgb(0, 255, 51);}
+   } 
+   
+   /* laptop */
+   @media (min-width: 900px) {
+    div {
+       display: inline-block;
+    width: 22%;
+    height: 175px;
+    background-color: #9370db;
+    font-size: 20px;
+    
+    }
+   }
+
 
 /*** Your code here ***/
